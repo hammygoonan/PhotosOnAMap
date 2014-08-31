@@ -1,0 +1,17 @@
+.DS_Store
+
+# python
+
+*.pyc
+*.pyo
+env
+env*
+dist
+*.egg
+*.egg-info
+
+# SCSS
+static/css/style.css
+static/.sass-cache
+static/photos/*.jpg
+static/config.rb

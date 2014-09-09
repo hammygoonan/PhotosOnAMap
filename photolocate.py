@@ -1,7 +1,6 @@
 #!/usr/bin/python
 
-from flask import Flask, request, render_template, jsonify, json
-from flask.ext.sqlalchemy import SQLAlchemy
+from flask import Flask, request, render_template, jsonify
 from PIL import Image
 from PIL.ExifTags import TAGS
 import os

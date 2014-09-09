@@ -63,9 +63,6 @@ class Map(object):
 # Start Routes #
 ################
 
-# random marker just to get an initial center poisition
-photo = Photo('2014-08-24 12.17.53.jpg');
-
 @app.route("/")
 def index():
 	return app.send_static_file('index.html')
